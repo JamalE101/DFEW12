@@ -1,9 +1,9 @@
-# var1 = "101"  #string
-# var2= 101  #Integer
-# var3 = 101.1 #float 
-# var4 = True or False  #Boolean
+var1 = "101"  #string
+var2= 101  #Integer
+var3 = 101.1 #float 
+var4 = True or False  #Boolean
 
-# print("hello world")
+print("hello world")
 
 import string
 

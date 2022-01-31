@@ -11,7 +11,16 @@ print(books["The Hobbit"])
 # Remove the last element of the list 
 lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
 
-
 lst.remove(99)
 
 print(lst)
+
+# What is the sum of all the numbers in the list
+
+
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+
+
+answer_1=sum(lst)
+
+print(answer_1)

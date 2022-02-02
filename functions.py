@@ -13,7 +13,7 @@ def palindrometest(typeword, reversedword):
 
 # Palimdrome finder
 
-userinputvar = input("Typo a word")
+userinputvar = input("Type a word")
 capturedword = reverseaword(userinputvar)
 isplaindrome =palindromertest(userinputvar,capturedword)
 print(f"{userinputvar} tested: {ispalindrome}")

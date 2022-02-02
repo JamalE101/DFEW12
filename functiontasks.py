@@ -22,23 +22,67 @@
 
 # Write a Python function to find the Max of three numbers.
 
-def numbers(numb1,numb2,numb3):
-    if numb1 >= numb2 and numb1 >= numb3:
-        return numb1
-    elif numb2 > numb1 and numb2 >= numb3:
-        return numb2 
-    else:
-        return numb3 
+# def numbers(numb1,numb2,numb3):
+#     if numb1 >= numb2 and numb1 >= numb3:
+#         return numb1
+#     elif numb2 > numb1 and numb2 >= numb3:
+#         return numb2 
+#     else:
+#         return numb3 
     
         
     
+# number1=int(input("Enter the first number: "))
+# number2=int(input("Enter the second number: "))
+# number3=int(input("Enter the third number: "))
+
+# Max_number = numbers(number1,number2,number3)
+
+# print(f"The Maximum number from the numbers entered is: {Max_number}")
 
 
+# Write a Python function to sum all the numbers in a list
+# Sample List : (8, 2, 3, 0, 7)
 
-number1=int(input("Enter the first number: "))
-number2=int(input("Enter the second number: "))
-number3=int(input("Enter the third number: "))
+# list=[8,2,3,0,7]
 
-Max_number = numbers(number1,number2,number3)
+# sumlist = sum(list)
+# print(sumlist)
 
-print(f"The Maximum number from the numbers entered is: {Max_number}")
+# def total_list(list):
+#     sumlist = sum(list)
+#     return sumlist 
+
+# list1=[8,2,3,0,7]
+
+# print(f"The total of the list1 is:{total_list(list1)}")
+
+# # Alternate method
+# def sum(numbers):
+#     total = 0
+#     for x in numbers:
+#         total += x
+#     return total
+# print(sum((8, 2, 3, 0, 7)))
+
+# def total_list(list):
+#     total = 1
+#     for x in list:
+#         total *= x 
+#     return total
+
+# list1=[8, 2, 3, -1, 7]
+
+# print(f"The total of the list1 is:{total_list(list1)}")
+
+ # Write a Python program to reverse a string
+
+
+def reverse(inword):
+     lenword = len(inword)-1
+     revword = ""
+     for letter in range(lenword,-1,-1):
+        revword = revword + inword[letter]
+     return revword
+reversed=str(input("Please enter a word you wish to be reversed: "))
+print(f"This is your word reversed is: {reverse(reversed)}")

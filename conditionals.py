@@ -7,7 +7,7 @@
 usermark = int(input("Enter your mark: "))
 if usermark > 85:
     print("Distinction")
-elif usermark >=65<=85:
+elif usermark >=65:
     print("Pass")
 elif usermark < 65:
     print("Fail")

@@ -32,15 +32,9 @@ class Budget:
 
 
 
-
-
-
-    
 clothes=Budget(50)
 food=Budget(100)
 pets=Budget(400)
-# clothing=Budget()
-# entertainment=Budget()
 food.balance_add(100)
 print(f"This is your food balance: £{food.balance}")
 clothes.balance_add(1000)
